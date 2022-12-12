@@ -1,7 +1,25 @@
 
+.bookMyshowLogo{
+    width: 10px;
+    height: 35px;
+}
+
+
 .navbarBGcolor{
     background-color: #333545;
  
+}
+
+.searchBar{
+    width: 500px;
+    padding-left: 40px;
+}
+
+.searchIcon{
+    color: rgb(94, 94, 94);
+    position: relative;
+    left: 30px;
+    top: 5px;
 }
 
 .bookMyshowLogo{
