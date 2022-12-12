@@ -1,0 +1,25 @@
+
+.navbarBGcolor{
+    background-color: #333545;
+ 
+}
+
+.bookMyshowLogo{
+    width: 200px;
+}
+
+.links{
+    color: white !important;
+}
+
+.signInbutton{
+    background-color: #f84464;
+    border: none;
+    width: 100px;
+}
+
+.headerSignIn{
+    display: flex;
+    width: 100% !important;
+    float: right;
+}
