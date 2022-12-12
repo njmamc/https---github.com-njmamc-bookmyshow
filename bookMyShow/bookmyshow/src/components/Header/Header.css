@@ -22,6 +22,7 @@
     display: flex;
     width: 100% !important;
     float: right;
+    justify-content: end;
 }
 
 
@@ -34,6 +35,17 @@
     color: #bfbfcc;
 }
 
+.RightSideLinks_1{
+    width: 60%;
+    display: flex;
+    justify-content: right;
+}
+
+
 .RightSideLinks{
     color: white;
+}
+
+.slide{
+    border: 8px solid #ebebeb;
 }

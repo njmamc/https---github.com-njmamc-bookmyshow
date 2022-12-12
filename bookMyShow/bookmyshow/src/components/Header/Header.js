@@ -34,24 +34,56 @@ const Header = () => {
             </nav>
 
             <section>
-                <nav class="nav nichewalaNavbar">
-                    <a class="nav-link active leftSideLinks" aria-current="page" href="#">Movies</a>
-                    <a class="nav-link leftSideLinks" href="#">Stream</a>
-                    <a class="nav-link leftSideLinks" href="#">Events</a>
-                    <a class="nav-link leftSideLinks" href="#">Plays</a>
-                    <a class="nav-link leftSideLinks" href="#">Sports</a>
-                    <a class="nav-link leftSideLinks" href="#">Activities</a>
-                    <a class="nav-link leftSideLinks" href="#">Buzz</a>
-                    
-                    
-                    
-                    <a class="nav-link RightSideLinks" href="#">ListYourShow</a>
-                    <a class="nav-link RightSideLinks" href="#">Corporates</a>
-                    <a class="nav-link RightSideLinks" href="#">Offers</a>
-                    <a class="nav-link RightSideLinks" href="#">Gift Cards</a>
+                <nav className="nav nichewalaNavbar">
+                    <a className="nav-link active leftSideLinks" aria-current="page" href="#">Movies</a>
+                    <a className="nav-link leftSideLinks" href="#">Stream</a>
+                    <a className="nav-link leftSideLinks" href="#">Events</a>
+                    <a className="nav-link leftSideLinks" href="#">Plays</a>
+                    <a className="nav-link leftSideLinks" href="#">Sports</a>
+                    <a className="nav-link leftSideLinks" href="#">Activities</a>
+                    <a className="nav-link leftSideLinks" href="#">Buzz</a>
 
+
+                    <nav className='RightSideLinks_1'>
+                    <a className="nav-link RightSideLinks" href="#">ListYourShow</a>
+                    <a className="nav-link RightSideLinks" href="#">Corporates</a>
+                    <a className="nav-link RightSideLinks" href="#">Offers</a>
+                    <a className="nav-link RightSideLinks" href="#">Gift Cards</a>
+                    </nav>
 
                 </nav>
+            </section>
+
+
+            <section>
+                <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
+                    <div className="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1670507854261_eatingweb.jpg" className="d-block w-100" alt="..." />
+                        </div>
+                        <div className="carousel-item active">
+                            <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1670409770857_cdvwdwd.jpg" className="d-block w-100" alt="..." />
+                        </div>
+                        <div className="carousel-item active">
+                            <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1670568965034_2erf.jpg" className="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
             </section>
 
         </div>
