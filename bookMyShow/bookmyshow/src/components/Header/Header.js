@@ -33,6 +33,27 @@ const Header = () => {
                 </div>
             </nav>
 
+            <section>
+                <nav class="nav nichewalaNavbar">
+                    <a class="nav-link active leftSideLinks" aria-current="page" href="#">Movies</a>
+                    <a class="nav-link leftSideLinks" href="#">Stream</a>
+                    <a class="nav-link leftSideLinks" href="#">Events</a>
+                    <a class="nav-link leftSideLinks" href="#">Plays</a>
+                    <a class="nav-link leftSideLinks" href="#">Sports</a>
+                    <a class="nav-link leftSideLinks" href="#">Activities</a>
+                    <a class="nav-link leftSideLinks" href="#">Buzz</a>
+                    
+                    
+                    
+                    <a class="nav-link RightSideLinks" href="#">ListYourShow</a>
+                    <a class="nav-link RightSideLinks" href="#">Corporates</a>
+                    <a class="nav-link RightSideLinks" href="#">Offers</a>
+                    <a class="nav-link RightSideLinks" href="#">Gift Cards</a>
+
+
+                </nav>
+            </section>
+
         </div>
     )
 }

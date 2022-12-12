@@ -23,3 +23,17 @@
     width: 100% !important;
     float: right;
 }
+
+
+.nichewalaNavbar{
+    background-color: #222539;
+    
+}
+
+.leftSideLinks{
+    color: #bfbfcc;
+}
+
+.RightSideLinks{
+    color: white;
+}
