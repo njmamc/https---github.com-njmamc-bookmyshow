@@ -1,0 +1,16 @@
+.imagesOfRecommendation{
+    display: flex;
+    justify-content: center;
+}
+
+.imgforRecomendTo{
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.recomendedMoviesText{
+    margin-left: 120px;
+    margin-top: 10px;
+    font-weight: bold;
+}
