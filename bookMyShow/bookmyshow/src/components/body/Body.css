@@ -14,3 +14,29 @@
     margin-top: 10px;
     font-weight: bold;
 }
+
+.flexDirectionRecomed{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.labelforRecommedation_title{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 10px;
+}
+
+.labelforRecommedation_category{
+    color: gray;
+    width: 85%;
+    margin-left: 10px;
+}
+
+.adAfterRecommendation{
+    width: 100%;
+    display: flex;
+    padding: 100px;
+
+}
