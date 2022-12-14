@@ -43,10 +43,16 @@
 
 .liveEventsImages_section{
     display: flex;
-    width: 40px;
+    justify-content: center;
 }
 
 .liveEventsImages_images{
     border-radius: 20px;
     padding: 10px;
+    width: 17%;
+}
+
+.liveEventHeading{
+    font-weight: bold;
+    margin-left: 110px;
 }

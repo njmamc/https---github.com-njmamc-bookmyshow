@@ -46,7 +46,7 @@ const Body = () => {
       </section>
 
       <section>
-        <h4>The Best Of Live Events</h4>
+        <h4 className='liveEventHeading'>The Best Of Live Events</h4>
         <div className='liveEventsImages_section'>
         <img className='liveEventsImages_images' src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-ODArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/workshop-and-more-web-collection-202211140440.png" alt="" />
         <img className='liveEventsImages_images' src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/stay-fit-collection-202211140440.png" alt="" />
