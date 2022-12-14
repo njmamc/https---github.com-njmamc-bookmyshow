@@ -40,3 +40,13 @@
     padding: 100px;
 
 }
+
+.liveEventsImages_section{
+    display: flex;
+    width: 40px;
+}
+
+.liveEventsImages_images{
+    border-radius: 20px;
+    padding: 10px;
+}

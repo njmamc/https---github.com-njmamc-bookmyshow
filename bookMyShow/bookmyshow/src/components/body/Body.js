@@ -18,7 +18,7 @@ const Body = () => {
           <img className='imgforRecomendTo' src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC45LzEwICA5Mi4zSyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00331997-ptqfdfmgtr-portrait.jpg" alt="" />
           <label className='labelforRecommedation_title' htmlFor="/">Drishyam 2</label>
           <label className='labelforRecommedation_category' htmlFor="/">Drama/Mystery/Thriller</label>
-          
+
         </div>
 
         <div className='flexDirectionRecomed'>
@@ -37,16 +37,28 @@ const Body = () => {
           <img className='imgforRecomendTo' src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC4yLzEwICAxLjNLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00341647-jfyallvcub-portrait.jpg" alt="" />
           <label className='labelforRecommedation_title' htmlFor="/">Salaam Venky</label>
           <label className='labelforRecommedation_category' htmlFor="/">Drama/Family</label>
-          </div>
-          </div>
+        </div>
+      </div>
 
 
-          <section>
-          <img className='adAfterRecommendation' src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/stream-leadin-web-collection-202210241242.png" alt="" />
-          </section>
+      <section>
+        <img className='adAfterRecommendation' src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/stream-leadin-web-collection-202210241242.png" alt="" />
+      </section>
 
-        </>
-        )
+      <section>
+        <h4>The Best Of Live Events</h4>
+        <div className='liveEventsImages_section'>
+        <img className='liveEventsImages_images' src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-ODArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/workshop-and-more-web-collection-202211140440.png" alt="" />
+        <img className='liveEventsImages_images' src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/stay-fit-collection-202211140440.png" alt="" />
+        <img className='liveEventsImages_images' src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-OCBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/kids-zone-collection-202211140440.png" alt="" />
+        <img className='liveEventsImages_images' src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTQwKyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/comedy-shows-collection-202211140440.png" alt="" />
+        <img className='liveEventsImages_images' src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NDUrIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/music-shows-collection-202211140440.png" alt="" />
+        </div>
+
+      </section>
+
+    </>
+  )
 }
 
-        export default Body
+export default Body
